@@ -4,8 +4,8 @@ SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
 *****/
 
 $internacional = [
-"titulo" => "XXX",
-"autor" => "XXX",
+"titulo" => "https://cnnespanol.cnn.com/?refresh=1",
+"autor" => "CNN ESPAÑOL",
 "resumen" => "XXX",
 ];
 ?>
