@@ -82,11 +82,9 @@
             <div class="card-body d-flex flex-column align-items-start col-md-12">
               <strong class="d-inline-block mb-2 text-success">Nacional</strong>
               <h3 class="mb-0">
-                <a class="text-dark" href="#">
-                  <?php
-                    echo $nacional["titulo"];
-                  ?>
-                </a>
+                <a class="text-dark" href="<?php echo $nacional['enlace']; ?>" target="_blank">
+  <?php echo $nacional["titulo"]; ?>
+</a>
               </h3>
               <div class="mb-1 text-muted">
                 <?php
@@ -115,11 +113,9 @@
             <div class="card-body d-flex flex-column align-items-start col-md-12">
               <strong class="d-inline-block mb-2 text-secondary">Economía</strong>
               <h3 class="mb-0">
-                <a class="text-dark" href="#">
-                  <?php
-                    echo $economia["titulo"];
-                  ?>
-                </a>
+                <a class="text-dark" href="<?php echo $economia['enlace']; ?>" target="_blank">
+  <?php echo $economia["titulo"]; ?>
+</a>
               </h3>
               <div class="mb-1 text-muted">
                 <?php
@@ -172,8 +168,8 @@
             <div class="card-body d-flex flex-column align-items-start col-md-12">
               <strong class="d-inline-block mb-2 text-primary">Tecnología</strong>
               <h3 class="mb-0">
-                <a class="text-dark" href="<?php echo $ciencia['enlace']; ?>" target="_blank">
-  <?php echo $ciencia["titulo"]; ?>
+                <a class="text-dark" href="<?php echo $tecnologia['enlace']; ?>" target="_blank">
+  <?php echo $tecnologia["titulo"]; ?>
 </a>
               </h3>
               <div class="mb-1 text-muted">
@@ -194,11 +190,9 @@
             <div class="card-body d-flex flex-column align-items-start col-md-12">
               <strong class="d-inline-block mb-2 text-success">Ciencia</strong>
               <h3 class="mb-0">
-                <a class="text-dark" href="#">
-                  <?php
-                    echo $ciencia["titulo"];
-                  ?>
-                </a>
+                <a class="text-dark" href="<?php echo $ciencia['enlace']; ?>" target="_blank">
+  <?php echo $ciencia["titulo"]; ?>
+</a>
               </h3>
               <div class="mb-1 text-muted">
                 <?php
